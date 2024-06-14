@@ -1,0 +1,50 @@
+Ans1.
+Padding and margin are CSS properties used to create space around elements in a web page layout. While they both affect the spacing around elements, they serve different purposes:
+
+1. Padding:
+Purpose: Padding is the space between the content of an element and its border. It affects the inside of the element, pushing the content away from the border.
+div {
+  padding: 20px; /* Applies 20 pixels of padding on all sides */
+}
+
+2. Margin:
+Purpose: Margin is the space outside the border of an element. It affects the spacing between elements, creating space between one element and its neighboring elements.
+div {
+  margin: 20px; /* Applies 20 pixels of margin on all sides */
+}
+
+Ans2. 
+In CSS, the display property specifies how an HTML element should be displayed in the browser. It controls the layout and behavior of elements on a web page. Here’s an explanation of the three main values for the display property: inline, block, and inline-block.
+
+1. inline
+Description: Inline elements do not start on a new line and only take up as much width as necessary.
+Behavior: Inline elements flow within the text and do not force a line break before or after themselves.
+Examples of inline elements include <span>, <a>, <strong>, <em>, <img>, etc.
+Code Example:
+span {
+  display: inline;
+}
+
+2. block
+Description: Block elements start on a new line and take up the full width available.
+Behavior: Block elements create a "block" or a rectangular box on the page.
+Examples of block elements include <div>, <p>, <h1> to <h6>, <ul>, <ol>, <li>, <table>, etc.
+Code Example:
+div {
+  display: block;
+}
+
+Ans3.
+1. min-height
+Description: Specifies the minimum height an element should have.
+Usage: Ensures that an element is at least a certain height, even if its content is smaller. If the content exceeds the specified min-height, the element will expand to accommodate it.
+2. min-width
+Description: Specifies the minimum width an element should have.
+Usage: Ensures that an element is at least a certain width, even if its content is smaller. Similar to min-height, if the content exceeds the specified min-width, the element will expand horizontally.
+3. max-height
+Description: Specifies the maximum height an element should have.
+Usage: Limits the height of an element, preventing it from expanding beyond a certain height. If the content inside the element exceeds the specified max-height, the overflow behavior will be determined by the overflow property.
+4. max-width
+Description: Specifies the maximum width an element should have.
+Usage: Limits the width of an element, preventing it from expanding beyond a certain width. Similar to max-height, if the content inside the element exceeds the specified max-width, the overflow behavior will be determined by the overflow property.
+
